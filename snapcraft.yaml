@@ -1,0 +1,27 @@
+name: terraform-abacao
+version: 0.9.6
+summary: build, change, and version infrastructure safely and efficiently
+description: |
+  Terraform is a tool for building, changing, and versioning infrastructure
+  safely and efficiently. Terraform can manage existing and popular service
+  providers as well as custom in-house solutions.
+
+grade: stable
+confinement: strict
+
+apps:
+  terraform:
+    command: terraform
+    plugs: [home, network]
+
+parts:
+  terraform:
+    source: https://github.com/hashicorp/terraform.git
+    source-tag: master
+    plugin: go
+    go-importpath: github.com/hashicorp/terraform
+    go-packages: [github.com/hashicorp/terraform]
+    go-buildtags: [core]
+    after: [go]
+  go:
+    source-tag: go1.8
