@@ -7,7 +7,7 @@ description: |
   providers as well as custom in-house solutions.
 
 grade: stable
-confinement: strict
+confinement: classic
 
 apps:
   terraform:
