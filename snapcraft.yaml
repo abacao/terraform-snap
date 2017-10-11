@@ -24,4 +24,4 @@ parts:
     go-buildtags: [core]
     after: [go]
   go:
-    source-tag: go1.8.1
+    source-tag: go1.9.1
