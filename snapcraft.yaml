@@ -1,6 +1,6 @@
 name: terraform-abacao
 version: 0.10.7
-summary: Terraform - Infrastructure-as-Code
+summary: Terraform - Infrastructure-as-Code AB
 description: |
   Terraform is a tool from Hashicorp for building, changing, and versioning 
   infrastructure safely and efficiently. Terraform can manage existing and 
