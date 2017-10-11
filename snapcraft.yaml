@@ -1,5 +1,5 @@
 name: terraform-abacao
-version: 0.10.5
+version: 0.10.7
 summary: Terraform - build, change, and version infrastructure safely and efficiently
 description: |
   Terraform is a tool for building, changing, and versioning infrastructure
@@ -13,7 +13,6 @@ apps:
   terraform:
     command: terraform
     plugs: [home, network]
-    aliases: terraform
 
 parts:
   terraform:
