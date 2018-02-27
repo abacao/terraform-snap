@@ -13,7 +13,7 @@ apps:
   terraform:
     command: terraform
     plugs: [home, network]
-    aliases: terraform
+    aliases: [ terraform ]
 
 parts:
   terraform:
