@@ -1,8 +1,11 @@
 # terraform-abacao
-
+<div style="text-align: right">
 [![Snap Status](https://build.snapcraft.io/badge/abacao/terraform-snap.svg)](https://build.snapcraft.io/user/abacao/terraform-snap)
-
+</div>
+<div style="text-align: center">
 ![Terraform.io](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS-UqcyxXW6jGOi5ZfZG2ZNTnZe-TIdaEGWtLaRZSk7R2l3uAo)
+</div>
+<br>
 
 Project url:  https://www.terraform.io/
 
