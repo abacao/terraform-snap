@@ -11,8 +11,9 @@ confinement: strict
 
 apps:
   terraform:
-    command:  bin/terraform
+    command: terraform
     plugs: [home, network]
+    aliases: terraform
 
 parts:
   terraform:
