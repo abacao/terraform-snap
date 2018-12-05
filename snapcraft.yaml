@@ -6,7 +6,7 @@ description: |
   infrastructure safely and efficiently. Terraform can manage existing and
   popular service providers as well as custom in-house solutions.
 
-grade: devel
+grade: stable
 confinement: classic
 
 architectures: [amd64]
