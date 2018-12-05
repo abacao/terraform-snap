@@ -7,9 +7,9 @@ description: |
   popular service providers as well as custom in-house solutions.
 
 grade: stable
-confinement: classic
+confinement: strict
 
-architectures: [amd64]
+architectures: [amd64, i386]
 
 parts:
   terraform:
