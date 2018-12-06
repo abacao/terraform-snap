@@ -14,7 +14,7 @@ architectures: [amd64, i386]
 parts:
   terraform:
     source: https://github.com/hashicorp/terraform.git
-    source-tag: v0.11.10
+    source-tag: master
     plugin: go
     go-importpath: github.com/hashicorp/terraform
     go-packages: [github.com/hashicorp/terraform]
