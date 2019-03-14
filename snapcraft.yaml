@@ -1,5 +1,5 @@
 name: terraform-abacao
-version: 0.11.10
+version: 0.11.11
 summary: Terraform - Infrastructure-as-Code AB
 description: |
   Terraform is a tool from Hashicorp for building, changing, and versioning
